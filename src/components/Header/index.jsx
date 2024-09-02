@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 const Header = () => (
     <header className={styles.appHeader}>
         <a href="/" className={styles.logo}>
-            <img src={logo} alt="CardWise" height="60"/>
+            <img src={logo} alt="CardWise" height="40"/>
             <span className={styles.text}>
                 CardWise
             </span>

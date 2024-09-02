@@ -36,7 +36,7 @@ export default {
     name: 'Lorcana',
     preview,
     api: {
-        cards: 'https://api.cardwise.itodorova.dev/lorcana/cards',
+        cards: 'http://localhost:3000/lorcana/cards',
     },
     cdn: {
         cards: 'https://cdn.cardwise.itodorova.dev/lorcana',
@@ -123,6 +123,14 @@ export default {
         {
             key: 'rfb',
             name: 'Rise of the Floodborn'
+        },
+        {
+            key: 'ink',
+            name: 'Into the Inklands'
+        },
+        {
+            key: 'urr',
+            name: 'Urusula\'s Return'
         },
     ]
 };
